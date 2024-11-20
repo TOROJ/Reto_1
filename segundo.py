@@ -1,4 +1,5 @@
 def palabra_palíndromo(a):
+    a=str(a)
     for i in range (len(a)):
         letra=a[i]      # letra por letra adelante
         i-=-1 
