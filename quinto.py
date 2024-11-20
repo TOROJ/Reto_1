@@ -1,4 +1,5 @@
 def lista_letras_iguales(a): 
+    a=[a.lower() for a in x]             # todos los elementos de la lista se vuelven minusculas
     b=[]                                 # lista donde se almacenaran los datos
     for i in range (len (a)):            # elemtos A
         a1= str(a[i])                    # combierte los datos en strings
